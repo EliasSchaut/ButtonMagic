@@ -2,7 +2,7 @@ from gpiozero import Button
 import os
 from signal import pause
 
-button = Button(5, bounce_time=0.2)
+button = Button(5, bounce_time=0.05)
 toggled = False
 
 
